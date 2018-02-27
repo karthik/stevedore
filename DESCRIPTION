@@ -16,9 +16,10 @@ Imports:
     jsonlite,
     yaml (>= 2.1.18)
 Suggests:
-    httppipe,
     knitr,
+    mockr,
     openssl,
+    reticulate,
     rmarkdown,
     testthat,
     withr

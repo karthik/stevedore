@@ -11,6 +11,8 @@ r_github_packages:
   - richfitz/httppipe
   - viking/r-yaml
 before_script:
+  - pip install -U setuptools
+  - pip install -U docker
   - docker pull hello-world
   - docker pull alpine
   - docker pull alpine:3.1
