@@ -8,7 +8,6 @@ r_packages:
   # only needed during the 3.4 -> 3.5 changeover
   - devtools
 r_github_packages:
-  - richfitz/httppipe
   - viking/r-yaml
 before_script:
   - sudo pip install -U setuptools
